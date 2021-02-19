@@ -40,7 +40,7 @@ public class App {
     	
         String[] listar= req.queryParams("numero").split("=");
         double number = Double.parseDouble(listar[1]);
-        
+          
         
         double resultado = 0;
         Calculadora calcular = new CalculadoraImpl();
